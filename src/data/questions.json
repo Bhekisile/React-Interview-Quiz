@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "React is a JavaScript library for building ___.",
+      "options": ["Database", "Connectivity", "User interface", "Design Platform"],
+      "correctOption": 2
+    },
+    {
+      "question": "User interface developed with React is made of small and isolated pieces of code called ___.",
+      "options": ["Hook", "Component", "Function", "Snippet"],
+      "correctOption": 1
+    },
+    {
+      "question": "What are the two main types of components in React.js?",
+      "options": ["Functional and stateful", "UI and container", "Presentational and container", "Class based and functional"],
+      "correctOption": 3
+    },
+    {
+      "question": "A React component takes in parameters called ___?",
+      "options": ["Attributes", "Children", "Props", "Events"],
+      "correctOption": 2
+    },
+    {
+      "question": "To write HTML in react we make use of ___?",
+      "options": ["HTTP", "XML", "JSX", "React.createElement()"],
+      "correctOption": 2
+    },
+    {
+      "question": "JSX Stands for ___?",
+      "options": ["JavaScript Extreme", "JavaScript XScript", "JavaScript XML", "JavaScript Extension"],
+      "correctOption": 2
+    },
+    {
+      "question": "React DOM uses ___ case property naming convention?",
+      "options": ["Snake", "Pascal", "Kebab", "Camel"],
+      "correctOption": 3
+    },
+    {
+      "question": "___ are the smallest building blocks of React apps.",
+      "options": ["Elements", "Components", "Tags", "JSX"],
+      "correctOption": 0
+    },
+    {
+      "question": "Which component lifecycle method runs after the component output has been rendered to the DOM?",
+      "options": ["componentMounted()", "componentWillUnmount()", "componentDidMount()", "componentDidRender()"],
+      "correctOption": 2
+    },
+    {
+      "question": "Which component lifecycle method is used to perform the cleanup when the component is removed from the DOM?",
+      "options": ["componentUnmounted()", "componentWillUnmount()", "componentDidUnMount()", "componentDidRender()"],
+      "correctOption": 1
+    }
+  ]
+}
