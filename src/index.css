@@ -79,3 +79,14 @@ body {
 .height {
   height: 100vh;
 }
+
+.result {
+  /* background-color: var(--color-theme); */
+  color: var(--color-theme);
+  /* border-radius: 100px;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.6rem; */
+}

@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 function StartQuiz() {
   return (
     <div className='height d-flex flex-column border justify-content-center align-items-center text-light'>
-      <h2>Welcome to The React Quiz!</h2>
-      <h3>10 questions to test your React mastery</h3>
+      <h1 className='mb-4'>Welcome to The React Quiz!</h1>
+      <h3 className='mb-4'>Ten questions to test your React fundamental</h3>
       <Link to='/main'>
         <button
           className="btn btn-dark"
