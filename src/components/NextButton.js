@@ -14,7 +14,7 @@ function NextButton(props) {
         >
           Next
         </button>
-      : <FinishScreen setIndex={props.setIndex} setAnswer={props.setAnswer} setCounter={props.setCounter} setIsActive={props.setIsActive} /> }
+      : <FinishScreen setIndex={props.setIndex} setAnswer={props.setAnswer} setCounter={props.setCounter} setIsActive={props.setIsActive} points={props.points} /> }
     </div>
   )
 }

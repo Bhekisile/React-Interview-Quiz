@@ -81,12 +81,26 @@ body {
 }
 
 .result {
-  /* background-color: var(--color-theme); */
-  color: var(--color-theme);
-  /* border-radius: 100px;
+  background-color: var(--color-theme);
+  color: var(--color-light);
+  border-radius: 100px;
   text-align: center;
   padding: 2rem 0;
   font-size: 2rem;
   font-weight: 500;
-  margin-bottom: 1.6rem; */
+  margin-bottom: 1.6rem;
+  width: 45%;
+}
+
+.questions-answers {
+  margin: 20px auto;
+  width: 80%;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+  .result {
+    width: 80%;
+  }
 }

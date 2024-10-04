@@ -8,16 +8,12 @@ function ShowResults() {
   const state = location.state;
 
   const questionsArr = questions.questions;
-  // console.log(state);
-  // const [correct, setCorrect] = useState(0);
-
-  // index === questionsArr.correctOption ? correct + 1 : "";
 
   return (
     <>
       <div className="centered-container">
-        <h2>
-          You scored <strong>{state}</strong> out of <strong>{totalScore}</strong> questions.
+        <h2 className="result">
+          You scored <strong>{`${state === null ? 0 : state}`}</strong> out of <strong>{totalScore}</strong> questions
         </h2>      
         <Link to='/'>
           <button
@@ -27,11 +23,11 @@ function ShowResults() {
           </button>
         </Link>
       </div>
-      <div className="mt-4 ms-4">
-        <h3 className="text-light">Questions:</h3>
+      <div className="questions-answers">
+        <h3 className="text-light text-center mb-4">Questions and Answers:</h3>
         <ol className="text-start text-light">
         {questionsArr.map((question, index) => (
-          <li key={index}>
+          <li key={index} className="mb-4">
           {question.question} <br /> <span className="correct-result">{question.options[question.correctOption]}</span>
           </li>
         ))}

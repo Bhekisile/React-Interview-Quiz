@@ -66,7 +66,6 @@ const Question = () => {
     setIsActive(false);
     setPoints(points);
   }
-// console.log(flaggedQuestions);
 
   return (
     <div className='mt-2 w-75 p-2 mx-auto border border-dark rounded text-light'>
@@ -114,7 +113,8 @@ const Question = () => {
               index={index} 
               numQuestions={numQuestions} 
               setCounter={setCounter} 
-              setIsActive={setIsActive} 
+              setIsActive={setIsActive}
+              points={points}
             />
           </div>
     </div>
